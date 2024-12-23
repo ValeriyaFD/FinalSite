@@ -1,0 +1,41 @@
+.post-iformation{
+    margin: 0 16px;
+    @media (min-width: 768px) and (max-width: 1439px){
+    margin: 0 24px;
+    }
+    @media (min-width: 1440px){
+    margin: 0 32px;
+    }
+}
+.post-iformation__text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #1b1c21;
+    @media (min-width: 768px) and (max-width: 1439px){
+        width: 421px;
+    }
+    @media (min-width: 1440px){
+        width: 421px;
+    }
+}
+.propose{
+    margin: 20px 16px 40px 16px;
+    @media (min-width: 768px) and (max-width: 1439px){
+    margin: 20px 24px 47px 24px;
+    }
+    @media (min-width: 1440px){
+    margin: 20px 32px 50px 32px;
+    }
+}
+.propose__text{
+    font-weight: 500;
+    font-size: 16px;
+    color: #1b1c21;
+}
+
+.propose__image {
+    display: inline;
+    height: 0.8em; 
+    vertical-align: middle; 
+    margin-left: 0.4em; 
+}

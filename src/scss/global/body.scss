@@ -1,0 +1,13 @@
+body {
+    font-family: 'TT Lakes';
+    font-weight: 400;
+    font-size: 14px; 
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    z-index: 996;
+    @media (min-width: 1440px){
+        max-width: 1440px;
+        display: flex;
+        align-items: stretch;
+    }
+}

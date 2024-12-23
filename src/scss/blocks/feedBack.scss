@@ -1,0 +1,132 @@
+.feedBack{
+  max-width: 320px;
+  box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2), -2px 0 4px 0 rgba(69, 79, 126, 0.02);
+  background: #fff;
+  padding: 24px 16px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  display: none;
+  z-index: 1000;
+  @media (min-width: 1440px) {
+    position: fixed;
+    left: auto;
+    right: 0;
+    min-width: 440px;
+    height: 100%;
+    padding: 40px 32px;
+    border-left: 1px solid  #d9fff5;
+  }
+}
+.feedBack.open{
+  display: block;
+}
+.feedBack__button{
+  width: 40px; 
+  height: 40px;
+  background-color: #FF3E79;
+  border-radius: 50%;
+  background-image: url("/img/cross.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  @media (min-width: 1440px) {
+    position: absolute;
+    left: -100px;
+    top: 120px;
+  }
+}
+.feedBack__title{
+  margin-top: 40px;
+  margin-bottom: 24px;
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  @media (min-width: 1440px) {
+    margin-top: 0;
+  }
+}
+.feedBack__header{
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: -80px;
+  }
+}
+.feedBack__title::before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 40px;
+  background-color: #41f6d7;
+  border-radius:0 25% 25% 0; 
+  left: -16px;
+  @media (min-width: 1440px){
+    left: -32px;
+  }
+}
+.feedBack__input{
+  font-family: 'TT Lakes';
+  width: 288px;
+  height: 48px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #b5b6bc;
+  padding: 0 16px;
+  @media (min-width: 1440px){
+    width: 380px;
+  }
+}
+.feedBack__input--more{
+  height: 118px;
+  
+}
+.feedBack__input--more::placeholder{
+  position: absolute;
+  top: 15px;
+}
+.feedBack__offer{
+  display: inline;
+}
+.feedBack__offer--color{
+  color: #ff3e79;
+}
+.feedBack__text{
+  padding-bottom: 19px;
+  font-weight: 500;
+  line-height: 114%;
+  font-size: 14px;
+  color: #7e7e82;
+}
+.feedBack__word{
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #fff;
+  margin-left: 20px;
+}
+.feedBack__order{
+  border-radius: 16px;
+  width: 136px;
+  height: 32px;
+  background: #ff3e79;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 150px;
+  @media (min-width: 1440px){
+    left: 240px;
+  }
+}
+.feedBack__order:hover{
+  background-color: #3b3b3b;
+}
+.feedBack__svg{
+  display: inline;
+  height: 10px;
+  width: 7px; 
+  vertical-align: middle; 
+  margin-left: 7px; 
+}
